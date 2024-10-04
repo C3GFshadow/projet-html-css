@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <title>PHP</title>
+</head>
+<body>
+    <div id="global">
+      <a id="logo" href="../accueil.html">Développeur <span>Web</span></a>
+      <div id="wrapper">
+        <header id="header">
+          <form id="form1">
+            <input type="checkbox" name="burger" id="burger"/>
+            <label for="burger" id="menu-burger">
+              <span class="bar1"></span>
+              <span class="bar2"></span>
+              <span class="bar3"></span>
+            </label>
+            <nav id="menu">
+              <ul>
+                <li><a href="./html.html">HTML</HTML></a></li>
+                <li><a href="./css.html">CSS</a></li>
+                <li><a href="./js.html">JS</a></li>
+                <li><a href="./php.html">PHP</a></li>
+                <li><a href="#footer">Contact</a></li>
+              </ul>
+            </div>
+          </form>
+        </header>
+      </div>
+    </div>
+    <section id="dev-web-php">
+      <div class="l-dev-web-php">
+        <h2>Qu'est-ce que PHP ?</h2>
+        <p>PHP (Hypertext Preprocessor) est un langage de script côté serveur, largement utilisé pour le développement web. Il permet de créer des pages dynamiques en générant du contenu HTML en temps réel.</p>
+      </div>
+      <div class="r-dev-web-php">
+        <div class="color-dev-web">
+           <img id="logo" class="img-dev-web-php" src="../assets/images/php-c-quoi.jpg">
+        </div>
+      </div>
+    </section>
+    <section id="structure-php">
+      <div class="l-structure-php">
+        <img id="logo" class="img-structure-php" src="../assets/images/syntaxe-php.jpg">
+      </div>
+      <div class="r-structure-php">
+        <h3>Syntaxe </h3>
+        <p>La syntaxe de PHP est assez simple. Un script PHP commence par et le code PHP est écrit entre ces balises. Voici un exemple :
+
+          < ?php
+              echo "Bonjour, le monde !";
+              ?></p>
+      </div>
+    </section>
+    <section id="elements-php">
+      <div class="l-elements-php">
+        <h3>Variables </h3>
+        <p>Les variables en PHP commencent par le signe dollar $. Voici quelques exemples :</p>
+        <ul>
+            <li><strong>$nom =</strong> "Alice";</li>
+            <li><strong> $age = </strong> 25;</li>
+            <li><strong>&lt;a&gt;</strong> : Liens vers d'autres pages ou sites.</li>
+            <li><strong>  $pays =</strong> "France";</li>
+        </ul>
+      </div>
+      <div class="r-elements-php">
+        <img id="logo" class="img-elements-php" src="../assets/images/Variables-in-PHP.png">
+      </div>
+    </section>     
+    <section id="attributes-php">
+      <div class="l-attributes-php">
+        <img id="logo" class="img-attributes-php" src="../assets/images/image-blog-zend-what-php-function.webp">
+      </div>
+      <div class="r-attributes-php">
+        <h3>Fonctions</h3>
+        <p>Les fonctions en PHP sont définies à l'aide du mot-clé function. Voici un exemple de fonction simple :
+
+function saluer() {
+        return "Bonjour !";
+    }</p>
+      </div>
+    </section>
+          <section id="examples">
+              <h4>Exemples Pratiques</h4>
+              <p>Voici un exemple d'utilisation de PHP pour afficher la date actuelle :</p>
+              <pre class="exemple-code">
+                <code>&lt;?php
+                  date_default_timezone_set('Europe/Paris'); // Définit le fuseau horaire
+                  $heure = date('H:i:s'); // Récupère l'heure au format heures:minutes:secondes
+                  echo "L'heure actuelle est : " . $heure;
+                ?&gt;
+                </code>
+              </pre>
+              <p>Pour voir cet exemple en action, rendez-vous à l'URL <code>http://localhost/heure.php</code>.</p>
+          </section>
+    <section id="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#about">À propos</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <a href="#privacy">Politique de confidentialité</a>
+            </div>
+            <div class="footer-contact">
+                <p>Contactez-nous : <a href="mailto:contact@votresite.com">alves.quentin@live.fr</a></p>
+                <p>Téléphone : +33 7 81 80 44 53</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Votre Entreprise. Tous droits réservés.</p>
+        </div>
+    </section>
+</body>
+</html>

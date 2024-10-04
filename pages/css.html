@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <title>CSS</title>
+</head>
+<body>
+    <div id="global">
+      <a id="logo" href="../accueil.html">Développeur <span>Web</span></a>
+      <div id="wrapper">
+        <header id="header">
+          <form id="form1">
+            <input type="checkbox" name="burger" id="burger"/>
+            <label for="burger" id="menu-burger">
+              <span class="bar1"></span>
+              <span class="bar2"></span>
+              <span class="bar3"></span>
+            </label>
+            <nav id="menu">
+              <ul>
+                <li><a href="./html.html">HTML</HTML></a></li>
+                <li><a href="./css.html">CSS</a></li>
+                <li><a href="./js.html">JS</a></li>
+                <li><a href="./php.html">PHP</a></li>
+                <li><a href="#footer">Contact</a></li>
+              </ul>
+            </div>
+          </form>
+        </header>
+      </div>
+    </div>
+    <section id="dev-web-css">
+      <div class="l-dev-web-css">
+        <h2>Qu'est-ce que CSS ?</h2>
+        <p>CSS (Cascading Style Sheets) est un langage de style utilisé pour <br>décrire l'apparence d'un document écrit en HTML. Il permet <br>de contrôler la mise en page, les couleurs, les polices<br> et bien plus encore.</p>
+      </div>
+      <div class="r-dev-web-css">
+        <div class="color-dev-web">
+           <img id="logo" class="img-dev-web-css" src="../assets/images/c-quoi-css.png">
+        </div>
+      </div>
+    </section>
+    <section id="structure-css">
+      <div class="l-structure-css">
+        <img id="logo" class="img-structure-css" src="../assets/images/CSS-syntax.webp">
+      </div>
+      <div class="r-structure-css">
+        <h3>Syntaxe CSS</h3>
+        <p>La syntaxe de base du CSS se compose de sélecteurs et de déclarations. Une déclaration comprend une propriété et une valeur.
+
+          selector {
+            property: value;
+          }</p>
+      </div>
+    </section>
+    <section id="elements-css">
+      <div class="l-elements-css">
+        <h3>Sélecteurs CSS</h3>
+        <p>Les sélecteurs sont utilisés pour cibler les éléments HTML. Voici quelques types de sélecteurs :</p>
+        <ul>
+            <li><strong>Sélecteur de type :</strong> p (cible tous les paragraphes)</li>
+            <li><strong>Sélecteur de classe :</strong> .ma-classe (cible les éléments avec la classe "ma-classe")</li>
+            <li><strong>&lt;a&gt;</strong> : Liens vers d'autres pages ou sites.</li>
+            <li><strong>Sélecteur d'ID :</strong> #mon-id (cible l'élément avec l'ID "mon-id")</li>
+        </ul>
+      </div>
+      <div class="r-elements-css">
+        <img id="logo" class="img-elements-css" src="../assets/images/CSS-selecteur.jpeg">
+      </div>
+    </section>     
+    <section id="attributes-css">
+      <div class="l-attributes-css">
+        <img id="logo" class="img-attributes-css" src="../assets/images/propriete-css.png">
+      </div>
+      <div class="r-attributes-css">
+        <h3>Propriétés CSS</h3>
+        <p>Il existe de nombreuses propriétés CSS. Voici quelques-unes des plus courantes :</p>
+        <ul>
+            <li><strong>color :</strong> définit la couleur du texte.</li>
+            <li><strong>background-color :</strong> définit la couleur de fond.</li>
+            <li><strong>font-size :</strong> définit la taille de la police.</li>
+            <li><strong>margin :</strong> définit l'espace autour d'un élément.</li>
+        </ul>
+      </div>
+    </section>
+          <section id="examples">
+              <h4>Exemples Pratiques</h4>
+              <p>Voici un exemple simple de code HTML :</p>
+              <pre class="exemple-code">
+                  <code>
+                    #pourquoi{
+                        display: flex;
+                        margin-top: 18vh;
+                    }
+                    #pourquoi h2{
+                        color: black;
+                    }
+                    #pourquoi .l-pourquoi{
+                        margin-left: 600px;
+                    }
+                    #pourquoi .img-pourquoi-web{
+                        height: 90%;
+                    }
+                    #pourquoi .r-pourquoi{
+                        margin-left: 380px;
+                        text-align: left;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                  </code>
+              </pre>
+          </section>
+    <section id="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#about">À propos</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <a href="#privacy">Politique de confidentialité</a>
+            </div>
+            <div class="footer-contact">
+                <p>Contactez-nous : <a href="mailto:contact@votresite.com">alves.quentin@live.fr</a></p>
+                <p>Téléphone : +33 7 81 80 44 53</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Votre Entreprise. Tous droits réservés.</p>
+        </div>
+    </section>
+</body>
+</html>
